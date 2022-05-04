@@ -1,0 +1,8 @@
+production:
+  domain: <%= ENV.fetch("APP_DOMAIN") { 'localhost' } %>
+
+development:
+  domain: <%= ENV.fetch("APP_DOMAIN") { 'localhost' } %>
+
+test:
+  domain: <%= ENV.fetch("APP_DOMAIN") { 'localhost' } %>

@@ -20,6 +20,9 @@
 /config/credentials.yml.enc
 !/config/credentials.test.yml
 !/config/crystalball.yml
+!/config/database.yml
+!/config/domain.yml
+!/config/security.yml
 /config/environments/*-local.rb
 /config/locales/generated/
 /config/RAILS_VERSION
