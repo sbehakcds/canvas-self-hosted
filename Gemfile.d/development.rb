@@ -29,5 +29,5 @@ group :development do
   gem "debase", "0.2.5.beta2", require: false
   gem "ruby-debug-ide", "0.7.2", require: false
 
-  gem 'dotenv-rails', "2.7.5"
+  gem "dotenv-rails", "2.7.5"
 end
