@@ -33,14 +33,14 @@ end
 ruby ">= 2.7.0", "< 3.1"
 
 # Add the version number to the Gemfile.lock as Gemfile.<version>.lock
-Bundler::SharedHelpers.class_eval do
-  class << self
-    def default_lockfile
-      lockfile = "#{Bundler.default_gemfile}.rails#{CANVAS_RAILS.delete(".")}.lock"
-      Pathname.new(lockfile)
-    end
-  end
-end
+# Bundler::SharedHelpers.class_eval do
+#   class << self
+#     def default_lockfile
+#       lockfile = "#{Bundler.default_gemfile}.rails#{CANVAS_RAILS.delete(".")}.lock"
+#       Pathname.new(lockfile)
+#     end
+#   end
+# end
 
 Bundler::Dsl.class_eval do
   def to_definition(_lockfile, unlock)
